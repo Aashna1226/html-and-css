@@ -1,0 +1,50 @@
+h1 {
+    color: brown;
+    margin: 20px;
+
+}
+
+.head{
+    display:flex;
+    background-color:#05969c;
+    justify-content: center;
+    flex-direction: column;
+}
+.head a{
+    margin: 20px;
+}
+.bodyy{
+    display: flex;
+    background-color: cyan;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+}
+
+.item{
+    display: flex;
+    background-color: darkgreen;
+    justify-content: space-around;
+    flex-direction: row;
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+}
+
+.footer{
+    display: flex;
+    background-color: deeppink;
+    justify-content: flex-end;
+}
+
+a:visited{
+    color: darkviolet;
+}
+a:hover{
+    color: firebrick;
+    cursor: crosshair;
+}
+img:hover{
+    opacity: 0.4;
+}
